@@ -1,8 +1,8 @@
 load 'dice.rb'
 
+
 class Character
-  attr_accessor :name, :alignment, :strength, :dexterity, :constitution,
-  :intelligence, :wisdom, :charisma
+  attr_accessor :name, :alignment
   def initialize(name,alignment)
 @name = name
 @alignment = alignment
